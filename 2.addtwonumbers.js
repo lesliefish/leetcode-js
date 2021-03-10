@@ -23,7 +23,6 @@ var addTwoNumbers = function (l1, l2) {
     }
 
     let theLastLink = pl1 ? pl1 : pl2; // link长度不一样，找出那个比较长的 继续加
-    // 如果l1没遍历完
     while (theLastLink) {
         let sum = theLastLink.val + overten;
         resultArr.push(sum % 10);
